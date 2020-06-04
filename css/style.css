@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+.header {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 1;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 410px;
+    text-decoration: none;
+}
+
+.logo-svg {
+    fill: #fff;
+}
+
+.logo-txt {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 34px;
+    /* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: right;
+}
+
+.logo:hover .logo-svg {
+    fill: #998675;
+    stroke: #fff;
+    text-decoration: none;
+}
+
+.logo:hover .logo-txt {
+    color: #998675;
+    text-decoration: none;
+
+}
+
+.menu {
+    margin-left: 50px;
+    width: 18px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.menu:hover {
+    width: 18px;
+    height: 24px;
+    color: #c7b299;
+}
+
+.menu1 {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.menu1:hover {
+    width: 24px;
+    height: 24px;
+    color: #c7b299;
+}
+
+ul {
+    list-style-type: none;
+    width: 637px;
+    /* можно попробовать задать min-width и max-width */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li a {
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    /* border: 1px solid black; */
+    /* background-color: #ccc; */
+}
+
+.nav ul li a:hover {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #c7b299;
+    /* border: 1px solid black; */
+    /* background-color: #ccc; */
+}
+
+.photo1 {
+    padding-left: -15px;
+    position: absolute;
+
+}
+
+.shadow {
+
+    opacity: 0.5;
+    width: 1920px;
+    height: 1024px;
+    background-color: black;
+}
+
+.form {
+    width: 600px;
+    height: 310px;
+    margin: auto;
+    /* background-color: black;*/
+    display: block;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: -672px;
+}
+
+.Unique {
+    font-family: Raleway-ExtraBold, Raleway-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.Portfolio {
+    font-family: Raleway;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.Nam {
+    width: 560px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.btn-link {
+    margin: 50px auto;
+    display: flex;
+    width: 200px;
+    /*   min-height: 60px; */
+    padding: 10px 5px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #998675;
+    text-transform: uppercase;
+    border-radius: 5px;
+    /*border-bottom: 4px solid brown;*/
+
+}
+
+.btn-link:hover {
+    background-color: #fff;
+    color: #998675;
+}
+
+.btn-link:active {
+    background-color: #998675;
+    color: #fff;
+}
+
+.btn-link-txt {
+    margin: auto;
+}
+
+.psd-nav {
+    margin: 80px auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -300px;
+}
+
+.web {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #555555;
+    background-color: #fff;
+}
+
+.web:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #555555;
+}
+
+.web:hover .web-icon {
+    fill: #c7b299;
+}
+
+.web:hover .web-title {
+    font-family: Raleway;
+    color: #c7b299;
+}
+
+.web:hover:after {
+    background-color: #c7b299;
+}
+
+.web-icon {
+    fill: #555555;
+    margin: 0 0 15px 0;
+}
+
+.web-title {
+    margin: 0 0 10px 0;
+    width: 100%;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.web-txt {
+    margin: 0 0 15px 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.ideas {
+    width: 100%;
+    height: 700px;
+    padding-top: 85px;
+    background-color: #fbfaf8;
+    position: relative;
+    top: -300px;
+}
+
+.ideas h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+}
+
+.ideas p {
+    width: 775px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.browser-left {
+    width: 770px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 345px;
+}
+
+.browser-right {
+    width: 770px;
+    height: 400px;
+    position: relative;
+    top: -250px;
+    left: 805px;
+}
+
+.browser-center {
+    width: 770px;
+    height: 400px;
+    position: relative;
+    top: -750px;
+    left: 575px;
+}
+
+.Multipurpose{
+    max-width: 1920px;
+    height: 150px;
+    padding: 40px 345px;
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #c7b299;
+    background-color: #262220;
+    position: relative;
+    top: -400px;
+}
+.white{
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.Multipurpose p{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+
+.btn-link1 {
+    display: flex;
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    border-radius: 3px;
+    /*   min-height: 60px; */
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-link1:hover {
+    background-color: #7e7568;
+    color: #998675;
+}
+
+.btn-link1:active {
+    background-color: #998675;
+    color: #998675;
+}
+
+.btn-link-txt1 {
+    margin: auto;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.latest-progect {
+    max-width: 1300px;;
+    text-align: center;
+    margin: -280px auto;
+    /*border: 2px solid green;*/
+}
+
+.latest-progect h2{
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.latest-progect p{
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    
+}
+
+.latest-progect ul {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.latest-progect ul li a {
+    height: 32px;
+    margin: 0 5px;
+    padding: 0 26px;
+    border: 1.0px solid #ebebeb;
+    border-radius: 3.0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.latest-progect ul li a:hover {
+    height: 32px;
+    padding: 0 26px;
+    border: 1.0px solid #ebebeb;
+    border-radius: 3.0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #998675;
+    text-decoration: none;
+}
+
+.progect-photo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.latest-progect-photo{
+    width: 375px;
+    height: 356px;
+    margin: 15px 15px;
+    border: 1px solid red;
+}
+
+.latest-progect-photo h2{
+    color:#C7B299;
+    margin-top: 28px;
+    margin-left: 24px;
+    font-family:Raleway-Medium,Raleway-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size:20px;
+    text-align:left;
+}
+
+.latest-progect-photo p{
+    color:#D1D1D1;
+    margin-left: 24px;
+    font-family:Montserrat-Light,Raleway-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size:14px;
+    text-align:left;
+}
